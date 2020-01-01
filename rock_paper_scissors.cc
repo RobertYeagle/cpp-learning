@@ -120,18 +120,18 @@ int main() {
     std::cout << "\n\n";
     
     // Ask if the player would like to play again.
-		std::cout << "\nWould you like to play again?: ";
+    std::cout << "\nWould you like to play again?: ";
     std::cin >> play_input;
-		
-		// Exit the loop if the player chooses no.
-		if (play_input == "n" || play_input == "N"){
 
-			play_again = false;
+    // Exit the loop if the player chooses no.
+    if (play_input == "n" || play_input == "N"){
 
-			}
-		else if (play_input == "y" || play_input == "Y"){
+    	play_again = false;
 
-			num_games++;
+    	}
+    else if (play_input == "y" || play_input == "Y"){
+
+    	num_games++;
 
 			}
 		
