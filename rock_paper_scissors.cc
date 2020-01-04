@@ -57,6 +57,7 @@ int main() {
 	// Start playing the actual game if they want to play.
 	while(play_again != false){
 
+    // Tell user what to pick.
     std::cout << "===========================================================\n";
     std::cout << "                Rock, Paper, Scissors!\n";
     std::cout << "===========================================================\n";
@@ -65,6 +66,7 @@ int main() {
     std::cout << "2) ✋\n";
     std::cout << "3) ✌️\n";
 
+    // Get user input.
     std::cout << "Pick your answer: ";
     std::cin >> user_input;
 
@@ -117,10 +119,12 @@ int main() {
     }
 
     std::cout << "You have played " << num_games << " games!";
+
     std::cout << "\n\n";
     
     // Ask if the player would like to play again.
     std::cout << "\nWould you like to play again?: ";
+
     std::cin >> play_input;
 
     // Exit the loop if the player chooses no.
