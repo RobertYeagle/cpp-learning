@@ -72,6 +72,7 @@ int main() {
 
     std::cout << "shoot! \n";
 
+    // Logic to check result.
     if (user_input == 1 && computer == 1) {
 
       std::cout << "It's a tie";
