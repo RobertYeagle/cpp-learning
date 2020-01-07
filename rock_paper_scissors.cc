@@ -50,6 +50,7 @@ int main() {
     if(play_input == "y" || play_input == "Y"){
 
       play_again = true;
+      // Increase num game.
       num_games++;
       
       }
