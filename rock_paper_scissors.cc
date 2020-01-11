@@ -58,7 +58,7 @@ int main() {
 	// Start playing the actual game if they want to play.
 	while(play_again != false){
 
-    // Tell user what to pick.
+    // Now tell user what to pick.
     std::cout << "===========================================================\n";
     std::cout << "                Rock, Paper, Scissors!\n";
     std::cout << "===========================================================\n";
