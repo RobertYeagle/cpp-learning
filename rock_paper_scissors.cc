@@ -18,7 +18,7 @@ int main() {
 	int computer_wins = 0;
 	std::string play_input;
   
-  // HP Art.
+  // Game Begin Art.
   const char* const game_begin_art =
   R"(
      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
